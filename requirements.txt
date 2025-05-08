@@ -1,0 +1,10 @@
+jupyterlab
+pandas
+numpy
+scikit-learn
+sentence-transformers
+transformers
+torch
+Flask
+google-genai
+python-dotenv

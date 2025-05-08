@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.venv/
+ENV/
+env/
+venv.bak/
+.env # If you use a .env file for API keys (VERY IMPORTANT to ignore)
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.nbconvert.*
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files you might not want to commit (if large or sensitive)
+# If email_embeddings.npy is large, or you prefer to regenerate it:
+# data/email_embeddings.npy
+# If you have other large data files, add them here.
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Compiled files (if any, less common for this type of project)
+*.so
+*.dll
+
+# Log files
+*.log
+logs/
+
+# Test outputs (if you have a dedicated test output folder)
+test-output/
+htmlcov/
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+wheels/
+*.whl
+
+# Secrets - ensure any local secret files are ignored
+# Example if you had a local_secrets.py or similar
+# local_secrets.py
+# *.key
