@@ -8,3 +8,4 @@ torch
 Flask
 google-genai
 python-dotenv
+requests

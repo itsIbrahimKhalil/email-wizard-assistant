@@ -38,7 +38,7 @@ def load_resources():
     try:
         print(f"Loading email data from {EMAIL_DATA_PATH}...")
         EMAILS_DF = pd.read_json(EMAIL_DATA_PATH)
-        EMAILS_DF['full_text'] = EMAILS_DF['subject'] + "\n\n" + EMAILS_DF['body']
+        EMAILS_DF['full_text'] = "Sender: " + EMAILS_DF['sender'] + "\nSubject: " + EMAILS_DF['subject'] + "\n\n" + EMAILS_DF['body']
         print(f"Loaded {len(EMAILS_DF)} emails.")
     except Exception as e:
         print(f"FATAL ERROR: Could not load email data from {EMAIL_DATA_PATH}. Error: {e}")
