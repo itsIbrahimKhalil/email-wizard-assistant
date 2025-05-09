@@ -192,7 +192,7 @@ python test_api.py
 *   **API Key Management:** API keys are managed via environment variables for security, preventing them from being hardcoded into the source.
 *   **Error Handling:** The API includes basic validation for incoming requests and `try-except` blocks to catch potential errors during processing, returning user-friendly JSON error messages.
 
-## 8. Future Improvements (Bonus Discussion)
+## 8. Future Improvements
 
 *   **ANN Integration:** For larger datasets, implement FAISS or a similar library for faster similarity searches.
 *   **User Interface:** Develop a simple web front-end for easier interaction.
