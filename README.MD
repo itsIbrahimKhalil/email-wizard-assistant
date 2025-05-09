@@ -1,4 +1,4 @@
-# Email Wizard Assistant (AI/ML Coding Challenge)
+# Email Wizard Assistant
 
 ## 1. Summary of the Solution
 
